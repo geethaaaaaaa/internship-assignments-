@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="8assign.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>🎭 Mood Tracker</h1>
+  <p class="subtitle">How are you feeling today?</p>
+
+  <div id="moodDisplay" class="mood">😐</div>
+  <div id="moodText" class="text">Neutral</div>
+
+  <div class="btn-group">
+    <button onclick="changeMood('😊','Happy')" class="btn happy">😊 Happy</button>
+    <button onclick="changeMood('😢','Sad')" class="btn sad">😢 Sad</button>
+    <button onclick="changeMood('😴','Sleepy')" class="btn sleepy">😴 Sleepy</button>
+    <button onclick="changeMood('🤩','Excited')" class="btn excited">🤩 Excited</button>
+  </div>
+</div>
+
+<script src="8script.js"></script>
+</body>
+</html>
