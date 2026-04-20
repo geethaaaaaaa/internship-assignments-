@@ -21,5 +21,3 @@ default:
 console.log("Invalid operator");
 }
 }
-
-calculate(10,'+',20);
