@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Listing UI</title>
+    <link rel="stylesheet" href="13assign.css">
+</head>
+<body>
+
+    <h1>🛒 Product Store</h1>
+
+    <!-- Filters -->
+    <div class="filters">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+        </select>
+
+        <select id="priceFilter">
+            <option value="all">All Prices</option>
+            <option value="low">Below ₹1000</option>
+            <option value="mid">₹1000 - ₹3000</option>
+            <option value="high">Above ₹3000</option>
+        </select>
+    </div>
+
+    <!-- Product Cards -->
+    <div id="productContainer" class="product-container">
+        <!-- JS will insert products here -->
+    </div>
+
+    <!-- ✅ ADD THIS LINE -->
+    <script src="13script.js"></script>
+
+</body>
+</html>

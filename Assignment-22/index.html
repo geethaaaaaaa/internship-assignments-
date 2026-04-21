@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Role Guard</title>
+    <link rel="stylesheet" href="22Assign.css">
+</head>
+<body>
+
+<h1>🔐 Role Guard System</h1>
+
+<div class="container">
+
+    <select id="roleSelect">
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+    </select>
+
+    <button onclick="login()">Login</button>
+
+    <hr>
+
+    <button onclick="accessUserPage()">User Page</button>
+    <button onclick="accessAdminPage()">Admin Page</button>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="22script.js"></script>
+</body>
+</html>
